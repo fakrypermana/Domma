@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tvChartIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Chart Income"
+        android:textSize="30dp"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background" />
+
+    <TextView
+        android:padding="10dp"
+        android:id="@+id/tvChartOutcome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="30dp"
+        android:text="Chart Outcome"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/cardview_dark_background" />
+
+
+
+</LinearLayout>

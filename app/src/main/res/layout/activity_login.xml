@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dip">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:text="Log In"
+        android:textColor="#90c40909"
+        android:textSize="33dp"
+        android:textStyle="bold" />
+
+    <!-- Email Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Username"
+        android:singleLine="true"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Email input text -->
+    <EditText android:id="@+id/txtUsername"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dip"/>
+
+    <!-- Password Label -->
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Password"
+        android:layout_marginBottom="5dip"/>
+
+    <!-- Password input text -->
+    <EditText android:id="@+id/txtPassword"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dip"
+        android:password="true"
+        android:singleLine="true"/>
+
+    <!-- Login button -->
+    <Button android:id="@+id/btnLogin"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:text="Login"
+        android:textColor="@color/cardview_light_background"
+        android:background="@color/colorPrimary"/>
+
+    <TextView
+        android:paddingTop="15dp"
+        android:text="Belum punya akun ?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/btnLoginRegist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Register"
+        android:textColor="@color/cardview_dark_background"/>
+
+</LinearLayout>

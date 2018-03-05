@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="all">
+
+        <item
+            android:id="@+id/chart"
+            android:icon="@mipmap/ic_multiline_chart_black_24dp"
+            android:checked="false"
+            android:title="Chart" />
+
+        <item
+            android:id="@+id/report"
+            android:icon="@mipmap/ic_assignment_black_24dp"
+            android:checked="false"
+            android:title="Report" />
+
+        <!--<item
+            android:id="@+id/setting"
+            android:icon="@mipmap/ic_settings_black_24dp"
+            android:checked="false"
+            android:title="Settings" />
+        <item
+            android:id="@+id/about_us"
+            android:icon="@mipmap/ic_person_pin_black_24dp"
+            android:checked="false"
+            android:title="About Us" />-->
+
+        <item
+            android:id="@+id/logout"
+            android:icon="@mipmap/ic_exit_to_app_black_24dp"
+            android:checked="false"
+            android:title="Log Out" />
+
+
+
+    </group>
+
+</menu>
